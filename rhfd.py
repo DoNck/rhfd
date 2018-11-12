@@ -6,7 +6,10 @@ from lxml import html
 import requests
 import os, errno
 import wget
-import urllib.parse
+try:
+    from urllib.parse import urlparse
+except ImportError:
+     from urlparse import urlparse
 import argparse
 
 #def recursive downloader for apache download pages URLs

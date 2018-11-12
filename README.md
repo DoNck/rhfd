@@ -9,7 +9,7 @@ Install the dependencies into the current working directory:
 ```$ pip install -t ./ -r requirements.txt```  
 or add them to the system: ```# pip install -r requirements.txt```
 
-##Example
+## Example
 ./rhfd.py "http://mirror.archlinux.ikoula.com/archlinux/iso/2015.08.01/arch/boot/"
 
 RHFD will create and download the following directories and files:
